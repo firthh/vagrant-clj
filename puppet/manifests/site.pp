@@ -8,7 +8,7 @@ class { 'baseconfig':
   stage => 'pre'
 }
 
-class { 'leiningen':
+class { 'devtools':
   stage => 'pre'
 }
 
@@ -19,4 +19,4 @@ File {
   mode  => '0644',
 }
 
-include baseconfig, leiningen
+include baseconfig, devtools
