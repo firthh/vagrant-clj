@@ -5,7 +5,7 @@ Basic vagrant setup for clojure development environment
 
 Currently puppet will install the following software on the Vagrant box:
 - Leiningen
-
+- Git
 
 
 
